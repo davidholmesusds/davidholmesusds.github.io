@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Service Landing Page</title>
+   	<link rel="stylesheet" href="./uswds-1.3.0/css/uswds.min.css">
+  	<style>
+	  	.usa-hero-callout.usa-section-dark {
+	  	    background-color: transparent;
+	  	}
+	  	.grey-background{
+	  		background:#f4f4f4;
+	  	}
+	  	.footer-hero{
+	  		    background-image: url('./img/footer.jpg');
+	  		    min-height: 500px;
+	  	}
+	  	.resources a{
+	  		display:block;
+	  	}
+	  	.grey-button,.grey-button:hover{
+	  		background:#e5e5e5;
+	  		font-weight: 400;
+	  		display:block;
+	  		cursor:default;
+
+	  	}
+	  	.border{
+	  		border:1px solid #f4f4f4;
+	  	}
+	  	.usa-hero{
+	  		min-height: 400px;
+	  	}
+	  	.hero-links{
+	  		float: right;
+	  		padding: 20px;
+	  		margin-right: 100px;
+	  	}
+	  	#main-content section .hero-links a{
+	  		padding:10px;
+	  		color:#eadb1f;
+	  		font-size:24px;
+	  		text-decoration: none;
+	  	}
+	  	.usa-hero-callout{
+	  		margin-top:100px;
+	  	}
+	  	/* this is the default colors for the theme. DS = Digital Service */ 
+	  	.DS-yellow-font{ 
+	  		color:#eadb1f;
+	  	}
+	  	.DS-blue-font,{ 
+	  		color:#0872b9;
+	  	}
+	  	.DS-dark-blue-font,.grey-button,.grey-button:hover{ 
+	  		color:#0f2e51;
+	  	}
+	  	.DS-link-color{
+	  		color:#4A90E2;
+	  	}
+	  	.DS-body-color{
+	  		color:#4A4A4A;
+	  	}
+	  	.DS-title{
+	  		color:#0F2E51;
+	  	}
+	  	.header{
+	  		color:#000000;
+	  	}
+	  	section{
+	  		color:#4A4A4A;
+	  	}
+	  	#main-content section a,section a:visited{
+	  		color:#4A90E2;
+	  		padding-top:10px;
+	  		padding-bottom:10px;
+	  		text-decoration: none;
+	  	}
+	  	#main-content section a{
+	  		color:#4A90E2;
+	  		padding-top:10px;
+	  		padding-bottom:10px;
+	  	}
+	  	.header-font{
+	  		
+	  		
+	  		font-family: ‘Source Sans Pro’;
+	  		font-weight: 700;
+	  		font-size: 18px;
+	  		line-height: 1.3em/21px;
+		    margin-bottom: 5px;
+	  	}
+	  	section.join-us a{
+	  		display:block;
+	  		font-size:24px;
+	  		font-weight: bold;
+	  		padding:0px;
+	  	}
+	  	section.join-us p{
+	  		padding: 0px;
+	  		margin: 0px;
+	  	}
+	  	.usa-section-dark h1,.usa-section-dark h3{
+	  		color:white;
+	  	}
+	  	.tag-line{
+	  		font-size: 24px;
+	  		font-weight: 400;
+	  		
+	  	}
+	  	.mid-block{
+	  		padding-top:60px;
+	  		padding-bottom:60px;
+	  	}
+	  	.pull-right{
+	  		float:right
+	  	}
+	  	.usa-hero-callout{
+	  		max-width: 100%;margin-top:100px;
+	  	}
+	    .join-us-grid{
+	    	padding:30px;
+	    }
+	    .join-us img{
+		    height:80px;
+		    width:80px;
+	    }
+	    .ds-services img {
+	    	height:128px;
+	    	width:128px;
+	    }
+	    .ds-services a {
+	    	display:block
+	    }
+  	</style>
+  </head>
+  <body class="layout-demo">
+  <a class="usa-skipnav" href="#main-content">Skip to main content</a>
+  <header class="usa-header usa-header-extended" role="banner">
+    <!-- Gov banner BEGIN -->
+    <div class="usa-banner">
+      <div class="usa-accordion">
+        <header class="usa-banner-header">
+          <div class="usa-grid usa-banner-inner">
+          <img src="./uswds-1.3.0/img/favicons/favicon-57.png" alt="U.S. flag">
+          <p>An official website of the United States government</p>
+          <button class="usa-accordion-button usa-banner-button"
+            aria-expanded="false" aria-controls="gov-banner">
+            <span class="usa-banner-button-text">Here's how you know</span>
+          </button>
+          </div>
+        </header>
+        <div class="usa-banner-content usa-grid usa-accordion-content" id="gov-banner">
+          <div class="usa-banner-guidance-gov usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-dot-gov.svg" alt="Dot gov">
+            <div class="usa-media_block-body">
+              <p>
+                <strong>The .gov means it’s official.</strong>
+                <br>
+                Federal government websites always use a .gov or .mil domain. Before sharing sensitive information online, make sure you’re on a .gov or .mil site by inspecting your browser’s address (or “location”) bar.
+              </p>
+            </div>
+          </div>
+          <div class="usa-banner-guidance-ssl usa-width-one-half">
+            <img class="usa-banner-icon usa-media_block-img" src="/assets/img/icon-https.svg" alt="SSL">
+            <div class="usa-media_block-body">
+              <p>This site is also protected by an SSL (Secure Sockets Layer) certificate that’s been signed by the U.S. government. The <strong>https://</strong> means all transmitted data is encrypted  — in other words, any information or browsing history that you provide is transmitted securely.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Gov banner END -->
+  <div class="usa-overlay"></div>
+  <main id="main-content">
+    <section class="usa-hero">
+    	<div class="hero-links pull-right">
+    		<a href="#"> USDS </a>
+    		<a href="#"> 18F </a>
+    		<a href="#"> PIF </a>
+    	</div>
+      <div class="usa-grid">
+      
+        <div class="usa-hero-callout usa-section-dark">
+          <h1 >Join a Digital Service</h1>
+          <p class="tag-line">Build a more awesome government for the people, by the people. Today.</p>
+        </div>
+      </div>
+    </section>
+    <section class="usa-grid usa-section">
+    	<h2>If you are in the tech sector and want to change the world, consider the US Government:</h2>
+    	<p> You came to tech to change the world. So did we. Join us!
+    </section>
+    <section class="join-us">
+
+	    <div class="usa-footer-primary-section">
+	      <div class="usa-grid-full">
+	    		<div class="usa-width-one-third join-us-grid" style="" >
+	    			<center>
+		        	<img src="./img/usds.png" >
+		          <a  href="#" class="DS-blue-font">Join USDS</a>
+		          <p>Loreum epson</p>
+	          </center>
+	        </div>
+	        <div class="usa-width-one-third join-us-grid" >
+	        	<center>
+		        	<img src="./img/18f.png">
+		          <a  href="#" class="DS-blue-font">Join 18f</a>
+		          <p>Loreum epson</p>
+		        </center>
+	        </div>
+	        <div class="usa-width-one-third join-us-grid"  >
+	        	<center>
+		        	<img src="./img/pif.png">
+		          <a  href="#"class="DS-blue-font">Become a PIF</a>
+		          <p>Loreum epson</p>
+	          </center>
+	        </div>
+	      </div>
+	    </div>
+    </section>
+
+
+    <section class="usa-grid usa-section ds-services">
+	    <div class="usa-width-two-thirds">
+	    	<h1 class="DS-title"> USDS </h1>
+	    	<p class="DS-dark-blue-font"> Tour of Duty: 3 months - 4 years. Start July 2017</p>
+			  <p>USDS is a technology “special forces” team focused on delivering critical services to the American people. They stabilize and secure systems, improve critical services, and help the government buy tech better. USDS chooses projects based on three criteria:</p>
+
+						<ol>
+							<li>what will do the greatest good for the greatest number of people in the greatest need</li>
+
+							<li>how effective and cost-efficient will the investment be</li>
+
+							<li>can the solution be used across the federal government</li>
+						</ol>
+				
+	      <p class="header-font">Examples of Service Delivery:</p>
+	      <a href="#" >Veteran Facing Services</a>
+	      <a href="#">Immigration modernization</a>
+	      <a href="#">Healthcare</a>
+	    </div>
+	    <div class="usa-width-one-third">
+
+		    <img src="./img/usds.png" >
+		    <br/>
+		    <button> Join USDS</button>
+		    <div> 
+		     	<p> We typically hire:</p>
+		     	<button class="grey-button DS-dark-blue-font">Designers</button>
+		     	<button class="grey-button DS-dark-blue-font">Software Engineers</button>
+		     	<button class="grey-button DS-dark-blue-font">Technical Product Managers</button>
+		     	<button class="grey-button DS-dark-blue-font">Tech Leaders and Executives</button>
+		    </div>
+	    </div>
+		</section>
+
+
+    <section>
+	    <div class="usa-footer-primary-section">
+	      <div class="usa-grid-full mid-block" >
+	        <h1>Technology Transformation Services (TTS)</h1>
+	        <p>TTS is part of the General Services Administration and is trying to improve government efficiency and provide better service to the public by helping agencies build, buy, and share technology. There are several programs under TTS, including 18F and the PIF program:</p>
+	      </div>
+	    </div>
+    </section>
+
+
+    <section class="usa-grid usa-section  ds-services">
+	    <div class="usa-width-two-thirds">
+	    	<h1 class="DS-title"> TTS/18F </h1>
+	    	<p class="DS-dark-blue-font"> Tour of Duty: 12 months - 4 years. Start July 2017</p>
+			  <p>18F develops partnerships with agencies to help them build or buy digital services that instill pride and trust in government services, that reliably meet user needs, that implement strong security practices, and that are delivered on time and in a cost effective manner. Through our work together, we also aim to generate improvements in agency practices that outlast our formal partnerships.
+18F is a remote-first team with offices in DC, New York, Chicago, and San Francisco, and has teammates working all over the country. Staff serve between 1 and 4 years.</p>
+
+				
+	      <p class="header-font">Examples of Shared Services:</p>
+	      <a href="https://18f.gsa.gov/what-we-deliver/fec-gov/" >Federal Election Commission</a>
+	      <a href="https://18f.gsa.gov/what-we-deliver/data-act/" >DATA Act</a>
+	      <a href="https://18f.gsa.gov/what-we-deliver/hhs-states/" >California Child Welfare Project</a>
+	    </div>
+	    <div class="usa-width-one-third">
+
+		    <img src="./img/18f.png" >
+		    <br/>
+		    <button> Join 18F</button>
+		    <div> 
+		     	<p> We typically hire:</p>
+		     	<button class="grey-button DS-dark-blue-font">Designers</button>
+		     	<button class="grey-button DS-dark-blue-font">Software Engineers</button>
+		     	<button class="grey-button DS-dark-blue-font">Technical Product Managers</button>
+		     	<button class="grey-button DS-dark-blue-font">Acquisitions Specialist</button>
+		    </div>
+	    </div>
+		</section>
+
+
+    <div class="border"></div>
+
+    <section class="usa-grid usa-section  ds-services">
+	    <div class="usa-width-two-thirds">
+	    	<h1 class="DS-title"> Presidential Innovation Fellows (PIF):</h1>
+	    	<p class="DS-dark-blue-font"> Tour of Duty: 12 months - 18 months. Start Fall 2017</p>
+			  <p>Presidential Innovation Fellows program is looking for mid- to senior-career individuals with a proven track record of success in areas such as entrepreneurship, strategic design, technology, innovation and modern product management.</p>
+
+				<p>Fellows team up with agency changemakers to tackle the nation’s biggest and most pressing challenges, such as improving access to education, fueling job creation and the economy, and expanding the public’s ability to access their personal health data.
+				Fellows serve 12-month tours of duty in Washington, DC. Classes typically start in late summer or early fall.</p>
+				<p class="header-font">Examples of Projects:</p>
+	      <a href="https://presidentialinnovationfellows.gov/projects/cancer-moonshot.html" >Cancer Clinical Trialss</a>
+	      <a href="https://presidentialinnovationfellows.gov/projects/fbi-risk-management.html" >FBI Threat Prevention</a>
+	    </div>
+	    <div class="usa-width-one-third">
+
+		    <img src="./img/pif.png" >
+		    <br/>
+		    <button> Join USDS</button>
+		    <div> 
+		     	<p> We typically hire:</p>
+		     	<button class="grey-button DS-dark-blue-font">Entrepreneurs</button>
+		     	<button class="grey-button DS-dark-blue-font">Strategic Designers</button>
+		     	<button class="grey-button DS-dark-blue-font">Innovation Leaders & Executives</button>
+
+		    </div>
+	    </div>
+		</section>
+
+
+    <section class=" usa-section usa-section-dark usa-graphic_list">
+    	    <div class="usa-footer-primary-section" style="background-color: transparent;">
+	      <div class="usa-grid-full" >
+	  	<h3>Any major initiative in government will only be as good as the people who work on it.</h3>
+
+	  	<p>The “tour of duty model” allows for leaders in the tech industry to pair with dedicated civil servants for a full time engagement of anywhere from three months to four years.</p>
+	  	<p>Three federal programs, <a href="#">the United States Digital Service</a>, <a href="#">18F</a>, and the <a href="#">Presidential Innovation Fellows program</a> bring top industry talent to critical areas of innovation within the government.</p>
+
+	  	<p>For more information about a tour of duty, please email <a href="#">Janastasoff@omb.gov</a></p>
+	  	</div>
+	  	</div>
+    </section>
+
+    <section class="usa-hero footer-hero">
+      <div class="usa-grid">
+        <div class="usa-hero-callout usa-section-dark">
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer class="usa-footer usa-footer-medium" role="contentinfo">
+		<div class="usa-footer-secondary_section">
+      <div class="usa-grid">
+        <div class="usa-footer-logo usa-width-one-half">
+          
+          <h3 class="usa-footer-logo-heading">Resources</h3>
+          <div class="resources">
+	          <a href="#">Web Standards</a>
+	          <a href="#">Tech Farm</a>
+	          <a href="#">Playbook</a>
+          </div>
+        </div>
+        <div class="usa-footer-contact-links usa-width-one-half">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./uswds-1.3.0/js/uswds.min.js"></script>
+  </body>
+</html>
