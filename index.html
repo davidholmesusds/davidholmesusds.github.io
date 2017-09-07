@@ -71,17 +71,15 @@
 				section {
 					color: #4A4A4A;
 				}
+			
 				#main-content section a, section a:visited {
-					color: #4A90E2;
+					
 					padding-top: 10px;
 					padding-bottom: 10px;
 					text-decoration: none;
 				}
-				#main-content section a {
-					color: #4A90E2;
-					padding-top: 10px;
-					padding-bottom: 10px;
-				}
+
+				
 				.header-font {
 					font-family: ‘Source Sans Pro’;
 					font-weight: 700;
@@ -142,7 +140,20 @@
 					margin-bottom: auto;
 					text-align: center;
 				}
-		</style>
+				a.usa-button-primary.join-button {
+			    color: white;
+			    width: 150px;
+				}
+				a {
+			    text-decoration: none;
+				}
+				a:visited{
+					color: #4A90E2;
+				}
+				.join-button{
+					min-width:100px;
+				}
+	</style>
 	</head>
 	<body class="layout-demo">
 		<a class="usa-skipnav" href="#main-content">Skip to main content</a>
@@ -246,7 +257,7 @@
 					<div class="usa-width-one-third">
 						<img src="./img/usds.png" alt="USDS logo" >
 						<br/>
-						<a href="https://usds.gov"><button> Join USDS</button></a>
+						<a href="https://usds.gov" class="usa-button-primary join-button">Join USDS</a>
 						<div>
 							<p> We typically hire:</p>
 							<button class="grey-button DS-dark-blue-font">Designers</button>
@@ -279,7 +290,7 @@
 						<div class="usa-width-one-third">
 							<img src="./img/18f.png" alt="18f logo" >
 							<br/>
-							<a href="https://18f.gsa.gov/"><button> Join 18F</button></a>
+							<a href="https://18f.gsa.gov/" class="usa-button-primary join-button">Join 18F</a>
 							<div>
 								<p> We typically hire:</p>
 								<button class="grey-button DS-dark-blue-font">Designers</button>
@@ -304,7 +315,7 @@
 							<div class="usa-width-one-third">
 								<img src="./img/pif.png" alt="Presidential Innovation Fellows Logo" >
 								<br/>
-								<a href="https://presidentialinnovationfellows.gov/"><button> Join PIF</button></a>
+								<a href="https://presidentialinnovationfellows.gov/" class="usa-button-primary join-button">Join PIF</a>
 								<div>
 									<p> We typically hire:</p>
 									<button class="grey-button DS-dark-blue-font">Entrepreneurs</button>
